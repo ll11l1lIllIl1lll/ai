@@ -1,6 +1,6 @@
 {
-  "name": "@ai-sdk/openai-compatible",
-  "version": "3.0.12",
+  "name": "@ctilkaz/openai-compatible-ignore-unknown",
+  "version": "3.0.15",
   "type": "module",
   "license": "Apache-2.0",
   "sideEffects": false,
@@ -67,7 +67,7 @@
   },
   "publishConfig": {
     "access": "public",
-    "provenance": true
+    "provenance": false
   },
   "homepage": "https://ai-sdk.dev/docs",
   "repository": {

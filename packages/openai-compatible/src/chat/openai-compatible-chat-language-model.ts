@@ -464,7 +464,7 @@ export class OpenAICompatibleChatLanguageModel implements LanguageModelV4 {
       this.config.metadataExtractor?.createStreamExtractor();
 
     const onUnhandledStreamChunk =
-      this.config.onUnhandledStreamChunk ?? 'error';
+      this.config.onUnhandledStreamChunk ?? 'skip-unknown';
 
     const { responseHeaders, value: response } = await postJsonToApi({
       url: this.config.url({
